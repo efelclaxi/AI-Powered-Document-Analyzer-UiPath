@@ -1,0 +1,35 @@
+{
+  "$schema": "https://cloud.uipath.com/draft/2024-12/entry-point",
+  "entryPoints": [
+    {
+      "filePath": "Main-original.xaml",
+      "uniqueId": "2685d77b-0d2f-4f00-8aea-b11132c54be2",
+      "type": "process"
+    },
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "474dbd99-0804-412d-beea-920b8205a528",
+      "type": "process",
+      "input": {
+        "type": "object",
+        "properties": {
+          "llm_Endpoint": {
+            "type": "string"
+          },
+          "out_ResultsCsv": {
+            "type": "string"
+          },
+          "in_InputDir": {
+            "type": "string"
+          },
+          "maxCharsForLLM": {
+            "type": "integer",
+            "minimum": -2147483648,
+            "maximum": 2147483647
+          }
+        },
+        "required": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "model": "phi3:mini",
+  "prompt": "TTO Analyst Agent System Prompt...",
+  "stream": false,
+  "options": {
+    "temperature": 0.1
+  },
+  "mock_response": {
+      "document_type": "Project Application",
+      "project_code": "1505-ABU-2025-01",
+      "applicant_name": "Dr. Hakan Aksoy",
+      "submission_date": "2025-12-15",
+      "requested_budget": 750000,
+      "missing_signatures": false,
+      "urgency_score": 9,
+      "confidence": 0.98
+  }
+}
